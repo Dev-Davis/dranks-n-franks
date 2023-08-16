@@ -1,0 +1,5 @@
+CREATE TABLE sides (
+	side_id NUMERIC PRIMARY KEY,
+	side_type VARCHAR(20) NOT NULL,
+	side_price NUMERIC NOT NULL
+)
