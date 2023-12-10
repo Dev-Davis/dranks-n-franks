@@ -8,28 +8,28 @@ export default function Sides() {
     {
       sId: 1,
       name: "Fries",
-      description: "In house cut fries fried and sprinkled with sea salt",
+      description: "In house cut potatoes, fried and sprinkled with sea salt",
       ingredients: "...",
       price: 2.49,
     },
     {
       sId: 2,
       name: "Chips",
-      description: "Your favorite bag of chips to go along side your hot dog",
+      description: "Your favorite bag of chips to go along side your hot dawg",
       ingredients: "...",
       price: 1.0,
     },
     {
       sId: 3,
       name: "Nashville Hot Fries",
-      description: "Our house cut fries with topped with our house made authentic Nashville Hot Spice",
+      description: "Our house cut fries with topped with our house made authentic Nashville Spice",
       ingredients: "...",
       price: 2.99,
     },
   ];
 
   return (
-    <div className="sides text-center">
+    <div className="item-container text-center">
       <h3 className="cat-name">Sides</h3>
       {/* <hr /> */}
       <div className="row">

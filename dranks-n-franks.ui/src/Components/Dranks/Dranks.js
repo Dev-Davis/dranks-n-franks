@@ -50,7 +50,7 @@ export default function Dranks() {
   ];
 
   return (
-    <div className="dranks text-center">
+    <div className="item-container text-center">
       <h3 className="cat-name">Dranks</h3>
       <div className="row">
         {dranks.map((drank) => (

@@ -33,7 +33,7 @@ export default function Franks() {
   ];
 
   return (
-    <div className="franks text-center">
+    <div className="item-container text-center">
       <h3 className="cat-name">Franks</h3>
       {/* <hr /> */}
       <div className="row">
@@ -41,6 +41,9 @@ export default function Franks() {
           <FranksCard key={frank.fId} frank={frank} />
         ))}
       </div>
+      <p className="fine-print">
+        * All combos with a side and a drink may vary in price *
+      </p>
     </div>
   );
 }
