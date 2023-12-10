@@ -5,6 +5,7 @@ import Favorites from "./Components/Favorites/Favorites";
 import Cart from "./Components/Cart/Cart";
 import Navbar from "./Components/Navbar/Navbar";
 import Login from "./Components/Login/Login";
+import SignUp from "./Components/SignUp/SignUp";
 
 import { BrowserRouter, Routes, Route, 
   // NavLink 
@@ -16,7 +17,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<SignUp />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />

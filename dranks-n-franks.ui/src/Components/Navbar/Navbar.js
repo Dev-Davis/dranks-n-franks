@@ -1,8 +1,5 @@
 import React from "react";
-import { 
-  // BrowserRouter, 
-  // Routes, 
-  // Route, 
+import {
   NavLink 
 } from "react-router-dom";
 
@@ -12,7 +9,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <NavLink
-        to="/"
+        to="/home"
         style={({ isActive }) => ({
           color: isActive ? "red" : "white",
         })}
@@ -26,7 +23,7 @@ export default function Navbar() {
           color: isActive ? "red" : "white",
         })}
       >
-        Favorites
+        Favorites and More
       </NavLink>
 
       <NavLink

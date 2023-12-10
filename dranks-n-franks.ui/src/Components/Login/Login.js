@@ -1,5 +1,12 @@
 import React from "react";
 
+import {
+  // BrowserRouter,
+  // Routes,
+  // Route,
+  NavLink,
+} from "react-router-dom";
+
 import "./Login.css";
 
 function Login() {
@@ -17,9 +24,9 @@ function Login() {
               <p>Password</p>
               <input />
             </form>
-            <p>Sign Up</p>
-            <p>or</p>
-            <p>Continue As Guest</p>
+            <button className="btn btn-danger bttn">
+              <NavLink to="/">Join Now!</NavLink>
+            </button>
           </div>
         </div>
       </div>

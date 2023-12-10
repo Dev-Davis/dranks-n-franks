@@ -5,25 +5,3 @@
   box-shadow: 5px 5px 50px 3px rgba(128, 128, 128, 0.535);
 }
 
-/* ******************************* */
-/* ***** Make the text flash ***** */
-/* ******************************* */
-
-/* .restaurant-title {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 4em;
-  color: rgb(162, 36, 36);
-  padding-top: 0.4em;
-  animation: blinker 2s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-} */
-
-/* ******************************* */
-/* ******************************* */
-/* ******************************* */
-
