@@ -11,14 +11,11 @@ export default function Menu() {
       <div className="container-fluid">
         <Franks />
       </div>
-      <p className="fine-print">
-        * All combos some a side and a drink may vary in price *
-      </p>
-      <hr className="menu-sep" />
+      {/* <hr className="menu-sep" /> */}
       <div className="container-fluid">
         <Sides />
       </div>
-      <hr className="menu-sep" />
+      {/* <hr className="menu-sep" /> */}
       <div className="container-fluid">
         <Dranks />
       </div>
