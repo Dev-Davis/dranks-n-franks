@@ -44,7 +44,7 @@ export default function Navbar() {
           color: isActive ? "red" : "white",
         })}
       >
-        Log In
+        Log Out
       </NavLink>
     </div>
   );
