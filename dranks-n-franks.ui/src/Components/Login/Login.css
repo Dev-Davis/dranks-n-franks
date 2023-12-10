@@ -1,0 +1,10 @@
+.dogg-avi-login {
+  height: 17em;
+  margin: 1em 2em;
+  border-radius: 4em;
+  box-shadow: 5px 5px 50px 3px rgba(128, 128, 128, 0.535);
+}
+
+.login-display-div {
+  margin: 3em 0;
+}
