@@ -19,7 +19,7 @@ export default function SidesCard(props) {
           <span className="item">{side.name}</span>
         </h5>
         <p>{side.description}</p>
-        <p className="price">{side.price.toFixed(2)}</p>
+        <p className="price">${side.price.toFixed(2)} + tax</p>
         <div className="btn-container">
           <button className="btn btn-danger add-btn bttn" onClick={addSide}>
             Add
