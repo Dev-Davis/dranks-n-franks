@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cat-name {
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.3em;
+  padding-bottom: 0.4em;
+}
+
+.card-box {
+  padding: 1em 0 0 0;
+  margin-bottom: 1em;
+  border: 1px solid white;
+  border-radius: 0.6em;
+}
+
+.item-title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5em;
+}
+
+.btn-container {
+  padding-bottom: 1em;
+}
+
+.bttn {
+  background-color: gray;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  padding: 0.5em 0;
 }

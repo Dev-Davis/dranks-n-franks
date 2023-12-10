@@ -1,21 +1,30 @@
-import React from 'react'
+import React from "react";
 
-import './Sides.css'
+import "./Sides.css";
 
-export default function SidesCard() {
+export default function SidesCard(props) {
+
+  const side = props.side;
+
+  const addSide = (item) => {
+    // let cart = {};
+
+    console.log(props.side);
+    // cart.push(item);
+  };
+
   return (
-    <div className="card-border row">
     <div className="col">
-      <div className="name-container">
-        <h5>{props.side.name}</h5>
+      <div className="card-box">
+        <h5 className="item-title">{side.name}</h5>
+        <p>{side.description}</p>
+        <p className="price">{side.price.toFixed(2)}</p>
+        <div className="btn-container">
+          <button className="btn btn-danger add-btn bttn" onClick={addSide}>
+            Add
+          </button>
+        </div>
       </div>
-      <div className="description-container">{props.side.ingredients}</div>
-      <div className="price-container">{props.side.price.toFixed(2)}</div>
-      <hr />
-      <button className="btn btn-primary" onClick={addSide}>
-        Add
-      </button>
     </div>
-  </div>
-  )
+  );
 }
