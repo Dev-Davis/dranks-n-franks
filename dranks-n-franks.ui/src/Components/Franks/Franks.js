@@ -10,7 +10,7 @@ export default function Franks() {
       fId: 1,
       name: "Chicago",
       ingredients:
-        "An all beef hot dog on a poppyseed bun topped with mustard, sports peppers, and a pickle",
+        "An all beef hot dog on a poppyseed bun topped with mustard, sports peppers, and a pickle. You're not in The Chi, but you'd think you are",
       price: 3.99,
       combo: 5.99,
     },
@@ -18,7 +18,7 @@ export default function Franks() {
       fId: 2,
       name: "Slaw",
       ingredients:
-        "An all beef hot dog on an all american bun topped with coleslaw and mustard for a warm southern experience",
+        "An all beef hot dog on an all american bun topped with homemade coleslaw and mustard for a warm southern experience",
       price: 3.99,
       combo: 5.99,
     },

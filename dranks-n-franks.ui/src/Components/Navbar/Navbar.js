@@ -1,18 +1,46 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
-import './Navbar.css'
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <div className="navbar">
-    <ul className="navi-brand">
-      <li>Dranks n Franks</li>
-    </ul>
-    <ul className="navi">
-      <li>Favorites</li>
-      <li>Cart</li>
-      <li>Log In</li>
-    </ul>
-  </div>
-  )
+      <NavLink
+        to="/"
+        style={({ isActive }) => ({
+          color: isActive ? "red" : "white",
+        })}
+      >
+        Dranks n Franks
+      </NavLink>
+
+      <NavLink
+        to="/favorites"
+        style={({ isActive }) => ({
+          color: isActive ? "red" : "white",
+        })}
+      >
+        Favorites
+      </NavLink>
+
+      <NavLink
+        to="/cart"
+        style={({ isActive }) => ({
+          color: isActive ? "red" : "white",
+        })}
+      >
+        Cart
+      </NavLink>
+
+      <NavLink
+        to="/login"
+        style={({ isActive }) => ({
+          color: isActive ? "red" : "white",
+        })}
+      >
+        Log In
+      </NavLink>
+    </div>
+  );
 }

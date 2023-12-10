@@ -4,7 +4,7 @@ import "./Franks.css";
 
 export default function FranksCard(props) {
   const frank = props.frank;
-  let cart = [];
+  // let cart = [];
 
   const addFrank = (e) => {};
 
@@ -15,7 +15,9 @@ export default function FranksCard(props) {
   return (
     <div className="col-4">
       <div className="card-box">
-        <h5 className="item-title">{props.frank.name} Dogg</h5>
+        <h5 className="item-title">
+          <span className="item">{props.frank.name} Dogg</span>
+        </h5>
         <p className="description">{frank.ingredients}</p>
         <p className="price">${frank.price.toFixed(2)} + tax</p>
         <div className="btn-container">

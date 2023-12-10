@@ -3,7 +3,6 @@ import React from "react";
 import "./Dranks.css";
 
 export default function DranksCard(props) {
-
   const drank = props.drank;
 
   const addDrank = () => {
@@ -13,7 +12,9 @@ export default function DranksCard(props) {
   return (
     <div className="col-4">
       <div className="card-box">
-        <h5 className="item-title">{drank.name}</h5>
+        <h5 className="item-title">
+          <span className="item">{drank.name}</span>
+        </h5>
         <p className="price">Small: {drank.small.toFixed(2)}</p>
         <p className="price">Regular: {drank.regular.toFixed(2)}</p>
         <p className="price">Large: {drank.large.toFixed(2)}</p>
