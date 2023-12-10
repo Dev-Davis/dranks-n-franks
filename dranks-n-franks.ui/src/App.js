@@ -6,7 +6,9 @@ import Cart from "./Components/Cart/Cart";
 import Navbar from "./Components/Navbar/Navbar";
 import Login from "./Components/Login/Login";
 
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, 
+  // NavLink 
+} from "react-router-dom";
 
 function App() {
   return (
