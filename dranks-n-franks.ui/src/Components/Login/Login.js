@@ -23,7 +23,14 @@ function Login() {
               <input />
               <p>Password</p>
               <input />
+              <br></br>
+              <br></br>          
+              <button className="btn btn-danger bttn">
+              <NavLink to="/">Login!</NavLink>
+            </button>
             </form>
+            <p>Not a customer?</p>
+            <br></br>
             <button className="btn btn-danger bttn">
               <NavLink to="/">Join Now!</NavLink>
             </button>
