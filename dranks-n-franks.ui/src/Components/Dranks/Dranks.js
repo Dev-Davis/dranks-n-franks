@@ -44,6 +44,7 @@ export default function Dranks() {
         <p className="price">Small: ${drankPrice.small.toFixed(2)} + tax</p>
         <p className="price">Regular: ${drankPrice.regular.toFixed(2)} + tax</p>
         <p className="price">Large: ${drankPrice.large.toFixed(2)} + tax</p>
+        <p>* Choose a drank size below *</p>
       </div>
       <div className="row">
         {dranks.map((drank) => (

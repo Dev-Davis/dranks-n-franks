@@ -149,3 +149,7 @@ a {
 .signup-text {
   font-family: "Kaushan Script", cursive;
 }
+
+.sign-up-form {
+  margin-top: 2em;
+}
