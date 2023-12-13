@@ -13,6 +13,7 @@ export default function Franks() {
         "An all beef hot dog on a poppyseed bun topped with mustard, sports peppers, and a pickle. You're not in The Chi, but you'd think you are",
       price: 3.99,
       combo: 5.99,
+      avi: "https://upload.wikimedia.org/wikipedia/commons/8/82/Chicago-style_hot_dog_2.jpg"
     },
     {
       fId: 2,

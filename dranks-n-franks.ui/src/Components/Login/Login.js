@@ -9,7 +9,8 @@ import {
 
 import "./Login.css";
 
-function Login() {
+function Login(props) {
+  console.log(props)
   return (
     <div className="login">
       <h1 className="page-title">Dranks n Franks</h1>
@@ -24,12 +25,14 @@ function Login() {
               <p>Password</p>
               <input />
               <br></br>
-              <br></br>          
-              <button className="btn btn-danger bttn">
-              <NavLink to="/">Login!</NavLink>
-            </button>
+              <br></br>
+              <button className="btn btn-danger bttn" onCLick={props.login}>
+                <NavLink to="/home">Login!</NavLink>
+              </button>
+              <p>or</p>
+              <NavLink to="/home">Continue As Guest</NavLink>
             </form>
-            <p>Not a customer?</p>
+            <p>Not a regular yet?</p>
             <br></br>
             <button className="btn btn-danger bttn">
               <NavLink to="/">Join Now!</NavLink>

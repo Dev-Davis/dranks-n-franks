@@ -43,7 +43,7 @@ export default function Navbar(props) {
         </NavLink>
   
         <NavLink
-          to="/login"
+          to="/"
           style={({ isActive }) => ({
             color: isActive ? "red" : "white",
           })}
@@ -66,16 +66,7 @@ export default function Navbar(props) {
         >
           Dranks n Franks
         </NavLink>
-  
-        {/* <NavLink
-          to="/favorites"
-          style={({ isActive }) => ({
-            color: isActive ? "red" : "white",
-          })}
-        >
-          Favorites and More
-        </NavLink>
-  
+
         <NavLink
           to="/cart"
           style={({ isActive }) => ({
@@ -83,10 +74,10 @@ export default function Navbar(props) {
           })}
         >
           Cart
-        </NavLink> */}
+        </NavLink>
   
         <NavLink
-          to="/login"
+          to="/home"
           style={({ isActive }) => ({
             color: isActive ? "red" : "white",
           })}
@@ -98,50 +89,9 @@ export default function Navbar(props) {
     );
   }
 
-  
-    
-
   return (
     <div className="loggedNav">
       {authed ? <UserNav /> : <GuestNav />}
     </div>
   )
-  //   <div className="navbar">
-  //     <NavLink
-  //       to="/home"
-  //       style={({ isActive }) => ({
-  //         color: isActive ? "red" : "white",
-  //       })}
-  //     >
-  //       Dranks n Franks
-  //     </NavLink>
-
-  //     <NavLink
-  //       to="/favorites"
-  //       style={({ isActive }) => ({
-  //         color: isActive ? "red" : "white",
-  //       })}
-  //     >
-  //       Favorites and More
-  //     </NavLink>
-
-  //     <NavLink
-  //       to="/cart"
-  //       style={({ isActive }) => ({
-  //         color: isActive ? "red" : "white",
-  //       })}
-  //     >
-  //       Cart
-  //     </NavLink>
-
-  //     <NavLink
-  //       to="/login"
-  //       style={({ isActive }) => ({
-  //         color: isActive ? "red" : "white",
-  //       })}
-  //     >
-  //       Log Out
-  //     </NavLink>
-  //   </div>
-  // );
 }

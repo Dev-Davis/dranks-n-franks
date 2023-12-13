@@ -12,7 +12,7 @@ function SignUp() {
       <div className="container signup-box text-center">
         <div className="row">
           <div className="col">
-            <form className="form-div">
+            <form className="form-div sign-up-form">
               <h2 className="signup-text">Sign Up</h2>
               <p>Username</p>
               <input />

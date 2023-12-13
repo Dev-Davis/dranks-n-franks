@@ -13,7 +13,7 @@ export default function FranksCard(props) {
   };
 
   return (
-    <div className="col-4">
+    <div className="col">
       <div className="card-box">
         <h5 className="item-title">
           <span className="item">{props.frank.name} Dogg</span>
@@ -23,11 +23,6 @@ export default function FranksCard(props) {
         <div className="btn-container">
           <button className="btn btn-danger add-btn bttn" onClick={addFrank}>
             {frank.name} Dogg Only
-          </button>
-        </div>
-        <div className="btn-container">
-          <button className="btn btn-danger combo-btn bttn" onClick={addCombo}>
-            Combo
           </button>
         </div>
       </div>
